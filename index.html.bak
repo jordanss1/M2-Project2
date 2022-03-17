@@ -18,7 +18,7 @@
 			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 			  <div class="container-fluid">
 				 <a class="navbar-brand text-uppercase" href="#">
-					 <i class="fa-solid fa-fire d-inline-block align-text-top pt-1 pe-1 ms-md-5"></i>Logo
+					 <i class="fa-solid fa-fire d-inline-block align-text-top pt-1 ms-md-5"></i>Logo
 				 </a>
 			  </div>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
