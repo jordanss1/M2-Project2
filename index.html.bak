@@ -15,36 +15,35 @@
   
 		<header>
 		
-			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			  <div class="container-fluid">
 				 <a class="navbar-brand text-uppercase" href="#">
-					 <i class="fa-solid fa-fire d-inline-block align-text-top pt-1 ms-md-5"></i>Logo
+					 <i class="fa-solid fa-fire d-inline-block align-text-top pt-1 pe-1 ms-md-5"></i>Logo
 				 </a>
-			  </div>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				 	<button class="navbar-toggler bg-light navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				  <span class="navbar-toggler-icon"></span>
 				</button>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				  <ul class="navbar-nav me-4 pe-md-5 mb-2 mb-lg-0">
+			  </div>
+				<div class="collapse navbar-collapse bg-light" id="navbarSupportedContent">
+				  <ul class="navbar-nav me-4 pe-md-5 mb-2 mb-md-0 ms-2">
 					<li class="nav-item px-md-2">
-					  <a class="nav-link active" aria-current="page" href="#">Home</a>
+					  <a class="nav-link active hover" aria-current="page" href="#">Home</a>
 					</li>
 					<li class="nav-item">
-					  <a class="nav-link px-md-2" href="#">Products</a>
+					  <a class="nav-link px-md-2 hover" href="#">Products</a>
 					</li>
 					<li class="ps-md-2 nav-item dropdown">
-					  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					  <a class="nav-link dropdown-toggle hover" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 						Services
 					  </a>
-					  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<li><a class="dropdown-item" href="#">Engage</a></li>
-						<li><a class="dropdown-item" href="#">Pontificate</a></li>
-						<li><hr class="dropdown-divider"></li>
-						<li><a class="dropdown-item" href="#">Synergize</a></li>
+					  <ul class="dropdown-menu navbar-dark bg-light" aria-labelledby="navbarDropdown">
+						<li><a class="dropdown-item link-dark" href="#">Engage</a></li>
+						<li><a class="dropdown-item link-dark" href="#">Pontificate</a></li>
+						<li><a class="dropdown-item link-dark" href="#">Synergize</a></li>
 					  </ul>
 					</li>
 					<li class="px-md-2 nav-item">
-					  <a class="nav-link">Contact</a>
+					  <a class="nav-link hover">Contact</a>
 					</li>
 				  </ul>
 
@@ -52,12 +51,18 @@
 		</header>
 		
 		<main>
-			<section class="main">
-				
-
+		
+			<section class="main container-fluid d-flex justify-content-center">
+				<div>
+					<article class="d-flex flex-md-column justify-content-center">
+						<h1>Dramatically Engage</h1>
+						<p class="fw-light fs-5 text-center w-100">Objectively innovate empowered manufactured products whereas parallel platforms.</p>
+						<button class="align-self-center fw-light rounded-pill btn text-uppercase">Engage now</button>
+					</article>
+				</div>
 			</section>
 		
 		
 		</main>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+	</body>
