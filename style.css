@@ -5,57 +5,47 @@ body {
 
 /* NAV START */
 
-nav {
-	height: 50px;
-}
 
 nav ul, .dropdown-menu {
 	font-size: 14px;
 }
 
- .navbar-light, .navbar-brand, .greena {
-	rgb(89, 179, 0);
+#green {
+	color: rgb(89, 179, 0);
 }
 
-a:link {
-  text-decoration: none;
+#green:hover {
+	color:  red;
 }
 
-a:visited {
-	text-decoration: none;
-}
-
-a:hover {
-  color:  rgb(89, 179, 0);
-}
-
-a:active {
-	text-decoration: none;
-}
-
-.nav-link:hover {
+#hover:hover {
 	color:  rgb(89, 179, 0);
 }
-
 
 /* NAV END */
 
 
 /* FIRST SECTION */
 
+main {
+	font-family: 'Outfit', sans-serif;
+}
+
 .main {
 	background-image: url("images/bg1.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	width: 100%;
 	color: white;
 	font-family: 'Outfit', sans-serif;
-	height: 500px;
 }	
 
 .main article {
 	height: 100%;
+}
+
+.div1 {
+	height: 695px;
 }
 
 .main h1 {
@@ -66,6 +56,59 @@ a:active {
 	width: 140px;
 	color: white;
 	background-color: rgb(89, 179, 0);
+	height: 60px;
+}
+
+.btn:hover {
+	background-color: darkgreen;
+	color: white;
 }
 
 /* END OF FIRST SECTION */
+
+/* MIDDLE SECTION*/
+
+.middle div {
+	background-color: rgb(89, 179, 0);
+	color: white;
+}
+
+.middle .fa-solid {
+	font-size: 60px;
+}
+
+.middle article {
+	width: 75%;
+}
+
+	
+
+
+@media screen and (max-width: 587px) {
+	
+/*FIRST SECTION */
+	
+.main h1 {
+	font-size: 50px;
+}
+
+	
+#pmain {
+	font-size: 10px;	
+}
+
+.div1 {
+	height: auto;
+}
+
+/*MIDDLE SECTION */
+
+.middle article {
+	width: 100%;
+}
+
+.middle h2 {
+	font-size: 28px;
+}
+
+	
