@@ -53,7 +53,7 @@ main {
 }
 
 .main button {
-	width: 140px;
+	width: 150px;
 	color: white;
 	background-color: rgb(89, 179, 0);
 	height: 60px;
@@ -68,21 +68,90 @@ main {
 
 /* MIDDLE SECTION*/
 
-.middle div {
+.middlediv1 {
 	background-color: rgb(89, 179, 0);
 	color: white;
 }
 
-.middle .fa-solid {
+.middlediv1 .fa-solid {
 	font-size: 60px;
 }
 
-.middle article {
+.middlediv1 article {
 	width: 75%;
 }
 
-	
+.middlediv2 {
+	background-color: rgb(240, 240, 240);
+	padding: 90px 0 90px 0;
+}
 
+.middlediv2 img {
+	width: 85%;
+}
+
+.middlediv2 button {
+	width: 140px;
+	color: white;
+	background-color: rgb(89, 179, 0);
+	height: 60px;
+}
+
+.middlediv2 p {
+	width: 85%;
+	font-size: 21px;
+}
+
+.middlediv3 {
+	background-color: rgb(38, 38, 38);
+	padding: 90px 0 90px 0;
+}
+
+.middlediv3 button {
+	width: 140px;
+	color: rgb(38, 38, 38);
+	background-color: white;
+	height: 60px;
+}
+
+.middlediv3 img {
+	width: 90%;
+}
+
+.middlediv3 p {
+	font-size: 21px;
+	width: 97%;
+}
+
+.btn2:hover {
+	background-color: rgb(240, 240, 240);
+	color: black;
+}
+
+/* END OF MIDDLE SECTION */
+
+/* BOTTOM SECTION */
+
+.bottom div {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 200px;
+}
+
+.img1 {
+	background-image:  url(images/writing.jpg);
+}
+
+.img2 {
+	background-image:  url(images/concert.jpg);
+}
+
+.img3 {
+	background-image:  url(images/pencil.jpg);
+} 
+
+/*MEDIA XS SCREENS*/
 
 @media screen and (max-width: 587px) {
 	
@@ -92,7 +161,6 @@ main {
 	font-size: 50px;
 }
 
-	
 #pmain {
 	font-size: 10px;	
 }
@@ -109,6 +177,10 @@ main {
 
 .middle h2 {
 	font-size: 28px;
+}
+
+.middlediv2 p {
+	width: 100%;
 }
 
 	

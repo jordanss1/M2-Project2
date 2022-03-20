@@ -52,28 +52,76 @@
 		
 		<main>
 		
+			<!--TOP SECTION-->
+			
 			<section class="mt-5 main container-fluid">
 			
 				<div class="div1">
 					<article class="d-flex flex-md-column justify-content-center row pt-5 pt-md-0 pb-5 pb-md-0">
 						<h1 class="col-12 text-center mt-5 mt-md-0">Dramatically Engage</h1>
 						<p class="fw-light fs-5 text-center w-100 col-12">Objectively innovate empowered manufactured products whereas parallel platforms.</p>
-						<button class="col-12 align-self-center fw-light rounded-pill btn text-uppercase mt-4">Engage now</button>
+						<button class="col-12 align-self-center fw-light fs-6 rounded-pill btn text-uppercase mt-4">Engage now</button>
 					</article>
 				</div>
 				
 			</section>
 			
+				<!--MIDDLE SECTION-->
+			
 			<section class="middle">
-				<div class="container-fluid d-flex justify-content-center">
+			
+				<div class="container-fluid d-flex justify-content-center middlediv1">
 					<article class="d-flex flex-column justify-content-center mt-5 pt-3">
 						<i class="fa-solid fa-apple-whole align-self-center mb-2"></i>
-						<h2 class="mb-3 align-self-center">Completely synergize resource taxing relationships</h2>
+						<h2 class="mb-3 text-center align-self-center">Completely synergize resource taxing relationships</h2>
 						<p class="mb-5 pb-4 text-center align-self-center w-100">Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
 					</article>
-					
 				</div>
+				
+					<div class="row gx-0 container-fluid middlediv2 d-flex align-content-center">
+						
+						<div class="col-md-6 col-12 d-flex justify-content-md-end justify-content-center pe-md-4">
+							<img src="images/microphone.jpg" class="img-fluid rounded-circle" alt="silver microphone">
+						</div>
+						<article class="col-md-6 col-12 pt-3 pt-md-0 pb-md-5 mb-md-5 d-flex align-items-md-start justify-content-center flex-column">
+							<h2 class="text-center text-md-start pb-2 pb-md-0">Best in Class</h2>
+							<p class="fw-light text-center text-md-start px-3 px-md-0">Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+							<button class="fw-light fs-5 rounded-pill btn text-uppercase align-self-center align-self-md-start">Classify it</button>
+						</article>
+						
+					</div>
+					
+					<div class="row gx-0 container-fluid middlediv3 d-flex flex-column-reverse flex-md-row align-content-end">
+						
+						<article class="col-md-5 col-12 pt-3 pt-md-0 pb-md-5 ms-md-5 mb-md-2 d-flex align-content-md-end justify-content-center flex-column">
+							<h2 class="text-center text-md-start w-100 pb-2 pb-md-0 text-light">Superior Quality</h2>
+							<p class="fw-light text-center text-md-start px-3 px-md-0 text-light">Holisticly predominate extensible testing procedures for reliable supply chains. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+							<button class="fw-light fs-5 rounded-pill btn2 text-uppercase align-self-center align-self-md-start">Test it</button>
+						</article>
+						<div class="col-md-6 col-12 ps-md-4 d-flex justify-content-center pe-md-4">
+							<img src="images/iphone.jpg" class="img-fluid rounded-circle" alt="hand holding iphone">
+						</div>
+						
+					</div>
 			
+			</section>
+			
+			<!--BOTTOM SECTION-->
+			
+			<section class="row bottom gx-0">
+				
+				<div class="img1 col-md-4 col-12 d-flex">
+					 <div class="text-center text-light">Unleash</div>
+				</div>
+				
+				<div class="img2 col-md-4 col-12 d-flex">
+					 <div class="text-center text-light">Synergize</div>
+				</div>
+				
+				<div class="img3 col-md-4 col-12 d-flex flex-column flex-wrap justify-content-center align-items-center">
+					 <div class="text-center text-light">Procrastinate</div>
+				</div>
+				
 			</section>
 		
 		
