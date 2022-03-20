@@ -132,23 +132,76 @@ main {
 
 /* BOTTOM SECTION */
 
-.bottom div {
+.bottom-imgs {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+	height: 200px;
+}
+
+.h3row {
+	color: white;
+	text-shadow: 0px 6px 20px black;
 }
 
 .img1 {
 	background-image:  url(images/writing.jpg);
 }
 
+.img1:hover {
+	border: 10px outset white;
+	background-size: 500px 350px;
+}
+
 .img2 {
 	background-image:  url(images/concert.jpg);
+}
+
+.img2:hover {
+	border: 10px outset white;
+	background-size: 500px 350px;
 }
 
 .img3 {
 	background-image:  url(images/pencil.jpg);
 } 
+
+.img3:hover {
+	border: 10px outset white;
+	background-size: 500px 350px;
+}
+
+.bottomdiv2 {
+	background-color: rgb(240, 240, 240);
+}
+
+.bottomdiv2 i {
+	font-size: 30px;
+	color:  rgb(89, 179, 0);
+}
+
+.bottomdiv2 p {
+	width: 80%;
+}
+
+.btn3 {
+	width: 140px;
+	color: white;
+	background-color: rgb(89, 179, 0);
+	height: 60px;
+}
+
+.btn3:hover {
+	background-color: darkgreen;
+}
+
+/* FOOTER */
+
+.contact {
+	background-color: rgb(89, 179, 0);
+	padding: 100px 0;	
+}
+
 
 /*MEDIA XS SCREENS*/
 
